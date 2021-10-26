@@ -11,6 +11,7 @@ public class Greeting {
         
         String message = scanner.nextLine();
         
+        //concatenate
         System.out.println("Hi " + message);
         
     }
