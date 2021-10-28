@@ -7,6 +7,14 @@ public class OddOrEven {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here 
+        System.out.println("Give a number:");
+        int numberOne = scan.nextInt();
+        
+        if(numberOne % 2 == 0) {
+            System.out.println("Number " + numberOne + "is even");
+        } else {
+            System.out.println("Number " + numberOne + " is odd");
+        }
         // HINT:
         // You can find out if a number is even or odd easily using the modulo operator %
         // Try the following commands to see what they print
