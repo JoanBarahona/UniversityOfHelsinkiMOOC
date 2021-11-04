@@ -7,5 +7,9 @@ public class Word {
         Scanner scanner = new Scanner(System.in);
 
     }
+    
+    public static String word() {
+        return "Test";
+    }
 
 }
