@@ -7,16 +7,18 @@ public class SecondPlusThird {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        
         while (true) {
             int number = Integer.valueOf(scanner.nextLine());
             if (number == 0) {
                 break;
             }
             
-            numbers.add(number);
+            list.add(number);
         }
-
-        System.out.println(luvut.get(0));
+        
+        int sum = list.get(1) + list.get(2);
+        System.out.println(sum);
     }
 }
