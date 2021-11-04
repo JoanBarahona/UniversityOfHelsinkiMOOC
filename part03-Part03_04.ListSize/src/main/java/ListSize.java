@@ -6,7 +6,7 @@ public class ListSize {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        int values;
         ArrayList<String> list = new ArrayList<>();
         while (true) {
             String input = scanner.nextLine();
@@ -16,6 +16,8 @@ public class ListSize {
 
             list.add(input);
         }
+        values = list.size();
+        System.out.println("In total:" + values);
 
     }
 }
