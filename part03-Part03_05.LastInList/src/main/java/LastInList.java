@@ -15,7 +15,9 @@ public class LastInList {
             }
 
             list.add(input);
-        }
+        }//end of while
+        
+        System.out.println(list.get(list.size()-1));
 
-    }
+    }//end of mine method
 }
