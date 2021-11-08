@@ -15,7 +15,12 @@ public class RememberTheseNumbers {
             }
 
             numbers.add(luku);
+        }//end of while
+        
+        for (Integer i : numbers) {
+            
+            System.out.println(i);
         }
 
-    }
+    }//end of mine
 }
