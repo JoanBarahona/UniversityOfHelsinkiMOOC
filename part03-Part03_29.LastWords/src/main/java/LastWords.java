@@ -10,12 +10,12 @@ public class LastWords {
             String input = scanner.nextLine();
             if(input.equals("")){
                 break;
-            }
+            }//en of if
             
-            String[] col = input.split(" ");
-            System.out.println(col[col.length-1]);
-        }
+            String[] column = input.split(" ");
+            System.out.println(column[column.length-1]);
+        }//en of while
 
 
-    }
-}
+    }//end of main 
+}//end of class
