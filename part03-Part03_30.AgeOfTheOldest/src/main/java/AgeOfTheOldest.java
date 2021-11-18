@@ -14,8 +14,8 @@ public class AgeOfTheOldest {
                 break;
             }
             
-            String[] col = input.split(",");
-            age = Integer.valueOf(col[1]);
+            String[] column = input.split(",");
+            age = Integer.valueOf(column[1]);
             
             if(age > n){
                 n = age;
