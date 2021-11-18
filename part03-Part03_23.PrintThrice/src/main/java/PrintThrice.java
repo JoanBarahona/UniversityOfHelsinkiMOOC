@@ -10,7 +10,7 @@ public class PrintThrice {
         System.out.println("Give a word: ");
         String input = scanner.nextLine();
         
-        System.out.print(input+input+input);
+        System.out.print(input + input + input);
         
 
     }
