@@ -14,12 +14,12 @@ public class NameOfTheOldest {
                 break;
             }//end of if
             
-            String[] col = input.split(",");
-            age = Integer.valueOf(col[1]);
+            String[] parts = input.split(",");
+            age = Integer.valueOf(parts[1]);
             
             if(age > n){
                 n = age;
-                name = col[0];
+                name = parts[0];
             }
             
         }//end of while
