@@ -17,7 +17,7 @@ public class Login {
         }else if ((username.equals("emma")) && (password.equals("haskell"))){
             System.out.println("You have succesfully logged in!");
         }else {
-            System.out.println("username or password!");
+            System.out.println("Incorrect username or password!");
         }
 
     }
